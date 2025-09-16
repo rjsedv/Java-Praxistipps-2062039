@@ -1,0 +1,29 @@
+***** Festlegung GC-Algorithmus ***** 
+
+java -XX:+UseSerialGC -jar app.jar
+
+java -XX:+UseParallelGC -jar app.jar
+
+java -XX:+UseConcMarkSweepGC -jar app.jar
+
+java -XX:+UseG1GC -jar app.jar
+
+java -XX:+UseZGC -jar app.jar
+
+java -XX:+UseShenandoahGC -jar app.jar
+
+
+***** Festlegung der Heap-Größe ***** 
+
+java -Xms512m -jar app.jar
+
+java -Xmx2g -jar app.jar
+
+java -Xms1g -Xmx4g -jar app.jar
+
+java -Xms2g -Xmx2g -jar app.jar
+
+
+***** GC-Logging aktivieren ***** 
+
+java -Xlog:gc -jar app.jar

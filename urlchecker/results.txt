@@ -1,0 +1,5 @@
+https://www.google.com -> Status: 200
+https://www.example.com/404page -> Status: 404
+https://www.openai.com -> Status: 403
+https://rjs.de -> Status: 200
+https://blog.rjs.de -> Status: 200
